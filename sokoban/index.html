@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sokoban Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="onInitGame()">
+    <h2>Welcome to the Sokoban Game</h2>
+    <button class="restart-button" onclick="restartGame()">Restart Game</button>
+    <button class="undo" onclick="undo()">Undo</button>
+    <button class="redo" onclick="redo()">Redo</button>
+    <button class="nextLevel" onclick="onInitGame()">Next Level</button>
+    <div class="score">
+        score: <b class="curr-score">100</b> 
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.board{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+table{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+table td{
+    width: 30px;
+    height: 30px;
+}
+.floor{
+    background-color:yellowgreen;
+}
+.wall{
+    background-color: burlywood;
+}
+.target{
+    background-color: rgb(92, 189, 228);
+}
+h2{
+    text-align: center
+}
+.restart-button{
+    display: none;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+/* img{
+    height: 30px;
+    width: 30px;
+} */
+.score{
+    color: green;
+    margin-left: 30%;
+}
+.curr-score{
+    color: blue;
+}
+.clockColor{
+    color: red;
+}
+.undo{
+    margin-left: 20%;
+    cursor: pointer;
+}
+.redo{
+    /* margin-left: 20%; */
+    cursor: pointer;
+}
+.nextLevel{
+    display: none;
+    margin-left: 20%;
+    margin-top: 5px;
+}
